@@ -1,0 +1,29 @@
+{
+	"name": "tsun-problem",
+	"version": "0.0.1",
+	"description": "tsun problem example",
+	"engines": {
+		"node": "10.13.0"
+	},
+	"main": "index.js",
+	"scripts": {
+		"type-check": "npx tsc --noEmit"
+	},
+	"author": "Tom Eklof <tom@positiivinencv.fi>",
+	"license": "UNLICENSED",
+	"private": true,
+	"devDependencies": {
+		"@types/lodash": "^4.14.118",
+		"@types/node": "^10.12.5",
+		"ts-node": "^7.0.1",
+		"tslint": "^5.11.0",
+		"tsun": "^0.3.8",
+		"typescript": "^3.1.4"
+	},
+	"dependencies": {
+		"@threestup/monads": "latest",
+		"immutable": ">=4.0.0-rc.12 < 5",
+		"lodash": "^4.17",
+		"rxjs": "^6.3.3"
+	}
+}
